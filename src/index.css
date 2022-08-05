@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background-color: #23252C;
+}
+
+.Info-Container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 317px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; 
+  overflow: hidden;
+  background-color: #1A1B21;
+}
+
+.Photo {
+  width: 100%;
+}
+
+.Info-Perso{
+  width: 80%;
+  margin: 21px auto;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+}
+
+.Info--title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Info--job {
+  color: #F3BF99 ;
+  font-size: 15px;
+}
+
+.Info--email {
+  font-size: 12px;
+}
+
+/* Button */
+
+.Info-Button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Info--button-email {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+  padding: 11px 9px;
+  width: 115px;
+  border-radius: 6px;
+}
+
+.Info--button-email > a {
+  text-decoration: none;
+  color: #374151;
+  font-size: 14px;
+}
+
+.Info--button-linkedin {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #5093E2;
+  padding: 11px 9px;
+  width: 115px;
+  border-radius: 6px;
+}
+
+.Info--button-linkedin > a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.InfoAboutInterest {
+  margin-top: 33px !important;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Info--about--interest > h1 {
+  font-size: 16px;
+}
+
+.Info--about--interest {
+  line-height: 150%;
+  color: white;
+}
+
+.Info--about--interest > p {
+  font-size: 10.24px;
+  padding-bottom: 23px;
+}
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 64px;
+  background-color: #161619;
+  font-size: 25px;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: #918E9B;
+}
