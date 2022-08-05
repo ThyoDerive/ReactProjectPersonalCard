@@ -114,6 +114,9 @@ body {
   height: 64px;
   background-color: #161619;
   font-size: 25px;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .Footer a {
