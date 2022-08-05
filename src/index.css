@@ -9,6 +9,7 @@
 
 body {
   background-color: #23252C;
+  overflow-x: hidden;
 }
 
 .Info-Container {
