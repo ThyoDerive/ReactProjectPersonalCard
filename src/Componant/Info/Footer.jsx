@@ -5,11 +5,11 @@ import { faLinkedin, faGithubSquare, faCcStripe, faInstagramSquare, faTwitterSqu
 export default function Footer() {
     return(
         <div className="Footer">
-            <a href="http://"><FontAwesomeIcon icon={faCcStripe} /></a>
-            <FontAwesomeIcon icon={faInstagramSquare} />
-            <FontAwesomeIcon icon={faTwitterSquare} />
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faGithubSquare} />
+            <a href="https://buy.stripe.com/aEUaIs4OwbEU69qcMM"><FontAwesomeIcon icon={faCcStripe} /></a>
+            <a href="https://www.instagram.com/thyo_dev/"><FontAwesomeIcon icon={faInstagramSquare} /></a>
+            <a href="https://twitter.com/ThyoDev"><FontAwesomeIcon icon={faTwitterSquare} /></a>
+            <a href="https://www.linkedin.com/in/theo-derive-857b28246/"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href=""><FontAwesomeIcon icon={faGithubSquare} /></a>
         </div>
     )
 }
