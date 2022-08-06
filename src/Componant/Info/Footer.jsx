@@ -9,7 +9,7 @@ export default function Footer() {
             <a href="https://www.instagram.com/thyo_dev/"><FontAwesomeIcon icon={faInstagramSquare} /></a>
             <a href="https://twitter.com/ThyoDev"><FontAwesomeIcon icon={faTwitterSquare} /></a>
             <a href="https://www.linkedin.com/in/theo-derive-857b28246/"><FontAwesomeIcon icon={faLinkedin} /></a>
-            <a href=""><FontAwesomeIcon icon={faGithubSquare} /></a>
+            <a href="https://github.com/ThyoDerive"><FontAwesomeIcon icon={faGithubSquare} /></a>
         </div>
     )
 }
